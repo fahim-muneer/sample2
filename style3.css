@@ -1,0 +1,180 @@
+header{
+    background-color: rgb(0, 210, 198);
+    height: 112px;
+    width: 100%;
+    position:fixed  ;
+    top: 0%;
+    border-bottom: #fefdfd solid .5px;
+    display: flex;
+    z-index: 100;
+
+
+}
+footer{
+    height: 100px;
+    width: 100%;
+    
+}
+.footer1{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 50px;
+
+}
+.footer2{
+    text-align: center;
+    
+
+}
+#utility{
+    /* font-family: 'korolev'; */
+    color: #fefdfd;
+    font-size: 12px;
+}
+#image{
+    
+    height: 68%;
+    
+   
+}
+.image-div{
+    height: 112px;
+    width: 10%;
+    padding-left: 2%;
+    padding-top: 2%;
+    gap: 2px;
+}
+nav{
+    display: flex;
+    height: 112px;
+    width: 400px;
+    text-transform: uppercase;
+   text-decoration: none;
+   
+    font-weight: 600;
+    font-size: 22px;
+    
+    gap: 30px;
+    padding-left: 40%;
+    padding-top: 49px;
+
+}
+#nav{
+    color: white;
+    text-decoration: none;
+    
+}
+#icons{
+    
+    height: 20%;
+    padding-right:0%;
+
+    
+    
+}
+.contacts{
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    height: 125px;
+    width: 100px;
+    
+}
+
+body{
+    background-color: #333;
+    margin: 0%;
+    padding: 0%;
+    font: 400 20px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+    
+}
+
+#article-image{
+   width:100% ;
+
+}
+h1{
+text-transform: uppercase;
+font-family: fantasy;
+font-size: 5.2vw;
+font-weight: bold;
+line-height: 74px;
+margin-bottom: 32px;
+color: white;
+letter-spacing: 2px;
+
+
+
+}
+h3{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: 36px;
+}
+.locater{
+     padding-bottom: 50px;
+    background-color: rgba(16, 77, 16, 0.638);
+    border-radius: 100px;
+    height: 200px;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    top:1800px ;
+    left: 406px;
+    align-content: center;
+}
+.Recipies{
+    
+    padding-bottom: 50px;
+    background-color: rgba(16, 77, 16, 0.638);
+    border-radius: 100px;
+    height: 200px;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    top:1000px ;
+    left: 406px;
+    align-content: center;
+    
+    
+    
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 200px;
+    border: white solid .5px;
+    border-radius: 30px ;
+    position: absolute;
+    top: 450px;
+    left: 80px;
+}
+.banner{
+    position: absolute;
+    top: 190px;
+    bottom: 0%;
+    right: 0px;
+    left: 80px;
+
+
+}
+article{
+    position: relative;
+    /* position: relative; */
+}
+#button{
+    text-decoration: none;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 200px; 
+    border: white solid .5px;
+    border-radius: 30px ;
+    background-color: transparent;
+}
